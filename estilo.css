@@ -1,0 +1,68 @@
+body {
+  background-image: url(imagens/bg.jpg);
+  background-repeat: no-repeat;
+  overflow-x:hidden;
+}
+
+#vitoria {
+  transform:scaleX(-1);
+}
+
+.painel {
+  position: absolute;
+  width: 190px;
+  left: 0px;
+  padding: 10px;
+  bottom: 0px;
+  border: solid 1px #000;
+  background-color: #735032;
+  opacity: 0.7;
+  text-transform: uppercase;
+
+}
+
+.vidas {
+  float: left;
+}
+
+.cronometro {
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+}
+
+/* tamanho do mosquito */
+.tamanho_mosquito {
+  width: 50px;
+  height: 50px;
+}
+
+/* tamanho do mosquito 2 */
+.tamanho_mosquito2 {
+  width: 70px;
+  height: 70px;
+}
+
+/* tamanho do mosquito 3 */
+.tamanho_mosquito3 {
+  width: 90px;
+  height: 90px;
+}
+
+/*inverte a imagem = nesse caso não fará nada pois é a posição original da img*/
+.ladoA {
+  transform: scaleX(1);
+}
+
+/* inverte a imagem */
+.ladoB {
+  transform: scaleX(-1);
+}
+
+/* posso usar para alterar de acordo com o tamanho do dispositivo, mão na massa depois */
+/* @media (min-width:768px) {
+  .tamanho_mosquito {
+    width: 150px;
+    height: 150px;
+  }
+} */
